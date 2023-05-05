@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+::-moz-focus-outer, ::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+	font-size: 35px;
+	background-color: rgba(194, 146, 24, 0.336);
+	font-family: 'Calligraffitti', cursive;
+}
+ p{
+display: inline-block;
+margin-top: 5px;
+font-weight: 600;
+color: rgb(14, 12, 12);
+}
+.wrapper{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.block{
+	margin-top: 20px;
+}
+
+
+span{
+	animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+	50%{
+		opacity: 0;
+	}
+}
